@@ -5,18 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apaje</title>
     <style>
-    body{ background-color: rgb(183, 255, 183); font-family: Georgia;}
-    .Enlaces{position:absolute;float: left;justify-content: center;background-color: rgb(203, 255, 125);text-align: center; width: 100%;}
-    .Enlaces a{float: left;padding:50px ;margin-left: 70px; margin-right: 150px; justify-content: center;text-align: center;}
+        body{margin:0px; padding:0px; position: relative; min-height: 100vh; min-width: 100vh; display: flex; flex-direction: column;}
+        html{justify-content:center;position:relative; margin:0px; min-height: 100%; max-width: 100%; padding:0px; height:100%; background: linear-gradient(90deg,rgb(175, 255, 128) 100%, rgb(119, 241, 38)100%, rgb(106, 243, 27) 100%);}
+        .header{text-align: center; background-color: rgb(66, 255, 113);letter-spacing: 0.2em; margin-top:0em ; padding: 1em 0; margin-bottom:1em; font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif; text-transform: uppercase; color:rgb(9, 78, 0);}
+        p{text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:black;}
+        li{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:black;}
+        h3{font-size: 25px;font-family: Verdana, Geneva, Tahoma, sans-serif; color:rgb(9, 78, 0);}
+        #footer{position:absolute; width: 100%; background-color: rgb(9, 78, 0); bottom: 0px;}
+        #footer a{margin-top: auto; float:left; min-width: 25%; width: 15%; height: 100%;text-align: center; padding-top: 20px;padding-bottom: 20px;text-decoration: none; font-family: sans-serif;
+        font-weight: 300; text-transform: uppercase; color: rgb(66, 255, 113);}
+        #footer a:hover {background-color: rgb(66, 255, 113); color:rgb(9, 78, 0)}
+        #lista1 {float: left; text-align: center; justify-content: left; width: 31%; height: 500px; background-color: white; margin-left: 20px;  margin-top: 50px;}
+        #lista1 p{color: rgb(0, 0, 0);}
+        #lista2 {float: left; text-align: center; justify-content: center; width: 31%; height: 500px; background-color: white; margin-left: 20px; margin-top: 50px;}
+        #lista3 {float: left; text-align: center; justify-content: left; width: 31%; height: 500px; background-color: white; margin-right: 10px;margin-left: 20px; margin-top: 50px;}
     </style>
 </head>
 <body>
-    <h1 style="text-align: center; color:rgb(72, 121, 0); justify-content: center; text-transform: uppercase;">Bienvenidos a Apaje</h1>
-    <p style="text-align: center;">Vamos a hablar sobre algunas de las mejores actividades al aire libre, casas rurales y restaurantes de Andújar</p>
-    <div class="Enlaces"> 
-    <a href="/actividad_aire_libre/home.html">Actividades al aire libre</a>
-    <a href="/casa_rural/home.html">Casas rurales</a>
-    <a href="/restaurante/home.html">Restaurantes</a>
+   <h1 class="header">Bienvenido a apaje</h1>
+   <p>Somos una empresa llamada Apaje que se encarga del turismo y ocio sobre la localidad de Andújar, vamos a hablar sobre algunas de las mejores actividades al aire libre, casas rurales y restaurantes, tenemos 3 subempresas las cuales son:</p>
+   <div>
+    <div id="lista1">
+    <h3>Rusticae</h3>
+    <p>Rusticae es una subempresa que se encarga de buscar casas rurales en el municipio de Andújar, todas aquellas de las casas rurales que aparecen son de excepcional calidad</p>
+    <p><strong>Teléfono:</strong> 603328489</p>
+    <p><strong>Correo electrónico:</strong> rusticae@gmail.com</p>
+    <p><strong>Trabajador 1:</strong> Manuel Sánchez Gutierrez</p>
+    <p><strong>Trabajador 2:</strong> Alicia Pérez Martínez</p>
+    <p><strong>Dirección de la oficina:</strong> c/Meloneras Nº40 Bajo A</p>
+    </div>
+    <div id="lista2">
+        <h3>Tipedia</h3>
+        <p>Tipedia es una subempresa principal en la continua ambición de hacer conocer a mucha gente los diferentes tipos de actividades al aire libre que se pueden hacer dentro de Andújar </p>
+        <p><strong>Teléfono:</strong> 632765434</p>
+        <p><strong>Correo electrónico:</strong> tipedia@gmail.com</p>
+        <p><strong>Trabajador 1:</strong> Pepe Martin Salas</p>
+        <p><strong>Trabajador 2:</strong> Teresa Garcia Serrano</p>
+        <p><strong>Dirección de la oficina:</strong> c/Ollerias Nº2 </p>
+    </div>
+    <div id="lista3">
+        <h3>Jesantes</h3>
+        <p>Jesantes es una subempresa que se encarga de recomendar restaurantes en el municipio de Andújar, todas aquellas de los restaurantes que aparecen son los más recomendables según las valoraciones de google</p>
+        <p><strong>Teléfono:</strong> 621665932</p>
+        <p><strong>Correo electrónico:</strong> jesantes@gmail.com</p>
+        <p><strong>Trabajador 1:</strong> Jesús Hernández Fuente</p>
+        <p><strong>Trabajador 2:</strong> María Marquez Quirós</p>
+        <p><strong>Dirección de la oficina:</strong> c/Larga Nº15</p>
+    </div>
+</div>
+   <div id="footer">
+    <a href="/casa_rural/home.html">Rusticae</a>
+    <a href="/actividad_aire_libre/home.html">Tipedia</a>
+    <a href="/restaurante/home.html">Jesantes</a>
     </div>
 </body>
 </html>

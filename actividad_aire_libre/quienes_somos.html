@@ -9,7 +9,8 @@
         body{margin:0px; padding:0px; position: relative; min-height: 100vh; min-width: 100vh; display: flex; flex-direction: column;}
         html{justify-content:center;position:relative; margin:0px; min-height: 100%; max-width: 100%; padding:0px; height:100%; background: linear-gradient(90deg,rgb(175, 255, 128) 100%, rgb(119, 241, 38)100%, rgb(106, 243, 27) 100%);}
         .header{text-align: center; background-color: rgb(66, 255, 113);letter-spacing: 0.2em; margin-top:0em ; padding: 1em 0; margin-bottom:1em; font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif; text-transform: uppercase; color:rgb(9, 78, 0);}
-        p{text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:black;}
+        .txt-header{font-size:20px; font-family: 'Avenir LT 35 Light';}
+        p{text-align: center; font-family: 'Avenir LT 35 Light'; color:black;}
         li{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:black;}
         h3{font-size: 25px;font-family: Verdana, Geneva, Tahoma, sans-serif; color:rgb(9, 78, 0);}
         #footer{position:absolute; width: 100%; background-color: rgb(9, 78, 0); bottom: 0px;}
@@ -17,18 +18,26 @@
         font-weight: 300; text-transform: uppercase; color: rgb(66, 255, 113);}
         #footer a:hover {background-color: rgb(66, 255, 113); color:rgb(9, 78, 0)}
         #lista1 {float: left; text-align: center; justify-content: left; width: 31%; height: 500px; background-color: white; margin-left: 20px;  margin-top: 50px;}
-        #lista1 p{color: rgb(0, 0, 0);}
+        #lista1 p{color: rgb(0, 0, 0); padding-left: 5px; padding-right: 5px; font-size: 17px;}
         #lista2 {float: left; text-align: center; justify-content: center; width: 31%; height: 500px; background-color: white; margin-left: 20px; margin-top: 50px;}
+        #lista2 p{color: rgb(0, 0, 0); padding-left: 5px; padding-right: 5px; font-size: 17px;}
         #lista3 {float: left; text-align: center; justify-content: left; width: 31%; height: 500px; background-color: white; margin-right: 10px;margin-left: 20px; margin-top: 50px;}
+        #lista3 p{color: rgb(0, 0, 0); padding-left: 5px; padding-right: 5px; font-size: 17px;}
+        @font-face {
+        font-family: 'Avenir LT 35 Light';
+        src: url('/actividad_aire_libre/Avenir\ LT\ 35\ Light.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
     </style>
 </head>
 <body>
    <h1 class="header">¿QUIENES SOMOS?</h1>
-   <p>Somos una empresa llamada Apaje que se encarga del turismo y ocio sobre la localidad de Andújar, tenemos 3 subempresas las cuales son:</p>
+   <p class="txt-header">Somos una empresa llamada Apaje que se encarga del turismo y ocio sobre la localidad de Andújar, tenemos 3 subempresas las cuales son:</p>
    <div>
     <div id="lista1">
     <h3>Rusticae</h3>
-    <p>Rusticae es una subempresa que se encarga de buscar casas rurales en el municipio de Andújar, todas aquellas de las casas rurales que aparecen son de excepcional calidad</p>
+    <p>Rusticae es una subempresa encargada de buscar casas rurales en el municipio de Andújar, todas aquellas de las casas rurales que aparecen son de excepcional calidad</p>
     <p><strong>Teléfono:</strong> 603328489</p>
     <p><strong>Correo electrónico:</strong> rusticae@gmail.com</p>
     <p><strong>Trabajador 1:</strong> Manuel Sánchez Gutierrez</p>

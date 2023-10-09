@@ -6,35 +6,71 @@
     <title>Actividades al aire libre | Tipedia</title>
     <link rel="shortcut icon" href="icono.jpg" />
     <style>
-    body{margin:0px; padding:0px; position: relative; min-height: 100vh; min-width: 100vh; display: flex; flex-direction: column;}
-    html{position:relative; margin:0px; min-height: 100%; max-width: 100%; padding:0px; height:100%; background: linear-gradient(90deg,rgb(175, 255, 128) 100%, rgb(119, 241, 38)100%, rgb(106, 243, 27) 100%);}
-    .header{text-align: center; background-color: rgb(66, 255, 113);letter-spacing: 0.2em; margin-top:0em ; padding: 1em 0; margin-bottom:1em; font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif; text-transform: uppercase; color:rgb(9, 78, 0);}
-    p{text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:black;}
-    li{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:black;}
-    h3{font-family: Verdana, Geneva, Tahoma, sans-serif; color:rgb(9, 78, 0);}
+    body{
+        margin:0px; 
+        padding:0px; 
+        position: relative; 
+        min-height: 100vh; 
+        min-width: 100vh; 
+        display: flex; 
+        flex-direction: column;
+    }
+    html{
+        position:relative; 
+        margin:0px; 
+        min-height: 100%; 
+        max-width: 100%; 
+        padding:0px; 
+        height:100%; 
+        background: linear-gradient(90deg,rgb(175, 255, 128) 100%, rgb(119, 241, 38)100%, rgb(106, 243, 27) 100%);
+    }
+    .header{
+        text-align: center; 
+        background-color: rgb(66, 255, 113);
+        letter-spacing: 0.2em; 
+        margin-top:0em ; 
+        padding: 1em 0; 
+        margin-bottom:1em; 
+        font-family: 'Avenir LT 35 Light'; 
+        font-weight: 700; 
+        text-transform: uppercase; 
+        color:rgb(9, 78, 0);
+    }
+    .txt-header{
+        font-size:20px; 
+        font-family: 'Avenir LT 35 Light';
+    }
+    p{
+        text-align: center; 
+    }
+    h3{ 
+        color:rgb(9, 78, 0);
+    }
     #footer{position:absolute; width: 100%; background-color: rgb(9, 78, 0); bottom: 0px;}
-    #footer a{margin-top: auto; float:left; min-width: 25%; width: 15%; height: 100%;text-align: center; padding-top: 20px;padding-bottom: 20px;text-decoration: none; font-family: sans-serif;
+    #footer a{font-family: 'Avenir LT 35 Light'; margin-top: auto; float:left; min-width: 25%; width: 15%; height: 100%;text-align: center; padding-top: 20px;padding-bottom: 20px;text-decoration: none; font-family: sans-serif;
     font-weight: 300; text-transform: uppercase; color: rgb(66, 255, 113);}
     #footer a:hover {background-color: rgb(66, 255, 113); color:rgb(9, 78, 0)}
-    #lista{width:85%; justify-content: center;align-items: center; background-color: white; margin-left: 10%; margin-right: 15%; margin-top: 3%;}
-    #lista h3{justify-content:auto; float: left; width: 100%;}
-    #lista ul{justify-content:auto; float: left; margin-top: 0px;margin-right: 50px;margin-bottom: 50px;width: 15%;}
-    #lista li{justify-content:auto; float: left; margin-top: 0px;margin-right: 50px;margin-bottom: 50px;width: 50%;}
-    #lista img{ justify-content: right; float:right;padding-top: 6em; padding-bottom: 6em; margin-top: 0px;margin-bottom: 50px; width:15em; min-width: 25em; max-width: 50em;}
+    #lista{width:100%;height: 100%; justify-content: center;align-items: center; background-color: white; margin-bottom:0px;}
+    #lista h3{font-family: 'Avenir LT 35 Light'; justify-content:auto; float: left; text-align:center;width: 100%;}
+    #lista ul{justify-content:auto; float: left; margin-top: 0px;margin-right: 50px;margin-bottom: 50px;width: 50%;}
+    #lista li{font-family: 'Avenir LT 35 Light';justify-content:auto; float: left; margin-top: 0px;margin-right: 50px;margin-bottom: 50px;width: 50%;}
+    #lista img{float:right; width:15em; min-width: 25em; margin-right:0px; margin-top: 1.5%; max-width: 50em;}
+    @font-face {
+        font-family: 'Avenir LT 35 Light';
+        src: url('/actividad_aire_libre/Avenir\ LT\ 35\ Light.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
     </style>
 </head>
 <body>
     <h1 class="header">Actividades al aire libre</h1>   
-    <p>La recreación al aire libre o la actividad al aire libre se refiere a la recreación realizada al aire libre, más comúnmente en entornos naturales. Las actividades que abarcan la recreación al aire libre varían según el entorno físico en el que se lleven a cabo.</p>
+    <p class="txt-header"="font-size:20px; font-family: 'Avenir LT 35 Light';">La recreación al aire libre o la actividad al aire libre se refiere a la recreación realizada al aire libre, más comúnmente en entornos naturales. Las actividades que abarcan la recreación al aire libre varían según el entorno físico en el que se lleven a cabo.</p>
     <div id="lista">
-    <h3>Tipos de actividades al aire libre</h3>
+    <h3>¿Que Actividades al Aire Libre puedes hacer?</h3>
     <ul>
-        <li>Caza deportiva</li>
-        <li>Senderismo</li>
-        <li>Turismo deportivo</li>
-        <li>Cicloturismo</li>
-        <li>Monuntain bike</li>
-        <li>Paseos a caballo</li>
+        <li>Caza deportiva: El Parque Natural de la Sierra de Andújar cuenta con numerosas fincas destinadas al deporte de la caza, una actividad que goza en estos parajes de Sierra Morena de enorme prestigio y tradición. Los magníficos cotos privados de caza de Lugar Nuevo y Contadero-Selladores son visitados con frecuencia y desde tiempo inmemorial por cazadores de todo el mundo.</li>
+        <li>Senderismo: La Sierra de Andújar es un enclave idóneo para la práctica de actividades de bajo impacto ambiental como el senderismo o la bicicleta de monaña. Posee itinerarios que muestran el esplendor paisajístico y faunístico de uno de los bosques mediterráneos mejor conservados de la península.</li>
     </ul>
     <img src="img1.jpg">
     </div>
